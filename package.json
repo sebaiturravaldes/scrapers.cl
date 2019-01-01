@@ -1,0 +1,33 @@
+{
+  "name": "scrapers.cl",
+  "version": "1.0.0",
+  "description": "Bored creating a scraping to monitor a wom phone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siturra/scrapers.cl.git"
+  },
+  "keywords": [
+    "scrapers",
+    "scraping",
+    "chile",
+    "nodejs"
+  ],
+  "author": "Sebastian Iturra Valdes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siturra/scrapers.cl/issues"
+  },
+  "homepage": "https://github.com/siturra/scrapers.cl#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.11"
+  }
+}
