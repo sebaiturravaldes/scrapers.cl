@@ -1,5 +1,4 @@
 //Requires
-const _ = require('lodash');
 const rp = require('request-promise');
 const cheerio = require('cheerio');
 
@@ -17,12 +16,17 @@ const urls = [
         name: 'Huawei P20 Lite',
         url: 'http://www.wom.cl/equipos/ficha/huawei-p20-lite',
         selector: WOMSelector
+    },
+    {
+        name: 'Iphone XS Max',
+        url: 'http://www.wom.cl/equipos/ficha/apple-iphone-xs-max',
+        selector: WOMSelector
     }
 ];
 
 
 //Each urls
-_.each(urls, (item) => {
+urls.forEach((item) => {
     rp(item.url)
         .then((html) => {
             let $ = cheerio.load(html);
