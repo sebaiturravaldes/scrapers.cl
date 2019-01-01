@@ -1,4 +1,10 @@
 # scrapers.cl
 scrapers
 
-Web Scraping enfocado en un celular de la compañia WOM
+Realizando un Web Scraping aburrido donde obtengo el precio de los celulares de la compañia WOM.
+
+## Ejecución
+
+```
+node index.js
+```
